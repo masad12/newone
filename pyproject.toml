@@ -1,6 +1,6 @@
 [project]
 name = "testingprojectofme"
-version = "0.0.1"
+version = "1.1.1"
 description = "The official Python library for the testingprojectofme API"
 dynamic = ["readme"]
 license = "Apache-2.0"
