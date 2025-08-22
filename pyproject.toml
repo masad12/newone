@@ -1,6 +1,6 @@
 [project]
 name = "testingprojectofme"
-version = "0.0.1"
+version = "1.1.1"
 description = "The official Python library for the testingprojectofme API"
 dynamic = ["readme"]
 license = "Apache-2.0"
@@ -35,8 +35,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/stainless-sdks/testingprojectofme-python"
-Repository = "https://github.com/stainless-sdks/testingprojectofme-python"
+Homepage = "https://github.com/masad12/newone"
+Repository = "https://github.com/masad12/newone"
 
 [project.optional-dependencies]
 aiohttp = ["aiohttp", "httpx_aiohttp>=0.1.8"]
@@ -125,7 +125,7 @@ path = "README.md"
 [[tool.hatch.metadata.hooks.fancy-pypi-readme.substitutions]]
 # replace relative links with absolute links
 pattern = '\[(.+?)\]\(((?!https?://)\S+?)\)'
-replacement = '[\1](https://github.com/stainless-sdks/testingprojectofme-python/tree/main/\g<2>)'
+replacement = '[\1](https://github.com/masad12/newone/tree/main/\g<2>)'
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
